@@ -29,11 +29,11 @@ TARGET_KERNEL_CONFIG := cyanogenmod_ls990_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Optimizations
-CLANG_O3 := false
+CLANG_O3 := true
 STRICT_ALIASING := false
-KRAIT_TUNINGS := false
+KRAIT_TUNINGS := true
 GRAPHITE_OPTS := false
-ENABLE_GCCONLY := false
+ENABLE_GCCONLY := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
